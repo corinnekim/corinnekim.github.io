@@ -120,10 +120,10 @@ author:
   # email            :
   links:
     - label: "LinkedIn"
-      # icon: "fab fa-linkedin-in"
+      icon: "fab fa-linkedin-in"
       url: "https://www.linkedin.com/in/corinne-kim-585964272"
     - label: "GitHub"
-      # icon: "fab fa-fw fa-github"
+      icon: "fab fa-fw fa-github"
       url: "https://github.com/corinnekim"
     # - label: "Email"
     #   icon: "fas fa-fw fa-envelope-square"
