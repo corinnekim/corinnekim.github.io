@@ -12,16 +12,16 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dirt" # "air", "default", "aqua", "contrast", "dark", , "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Site Title"
+rtl                      :  false # (default) true, # turns direction of the page into right to left for RTL languages
+title                    : "Corinne's blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Corinne"
-description              : "Hi there"
+description              : "pie-thon"
 url                      : "corinnekim.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # "corinnekim/corinnekim.github.io"
@@ -31,7 +31,7 @@ masthead_title           : # overrides the website title displayed in the masthe
 breadcrumbs              : false
 words_per_minute         : 200
 enable_copy_code_button  : false
-copyright                : "© {{ 'now' | date: '%Y' }} Corinne Kim"
+copyright                : "Corinne Kim"
 copyright_url            : https://corinnekim.github.io"
 comments:
   provider               : false # (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -115,10 +115,16 @@ analytics:
 author:
   name             : "Corinne"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Bundang, South Korea"
-  email            :
+  bio              : "Hi there"
+  # location         : "Jeongja-dong"
+  # email            :
   links:
+    - label: "LinkedIn"
+      icon: "fa fa-linkedin-square"
+      url: "https://www.linkedin.com/in/corinne-kim-585964272"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/corinnekim"
     # - label: "Email"
     #   icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
@@ -131,9 +137,6 @@ author:
     # - label: "Facebook"
     #   icon: "fab fa-fw fa-facebook-square"
     #   # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/corinnekim"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
     #   # url: "https://instagram.com/"
@@ -141,15 +144,18 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/corinnekim"
+    - label: "LinkedIn"
+      icon: "fa fa-linkedin-square"
+      url: "https://www.linkedin.com/in/corinne-kim-585964272"       
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   # url:
     # - label: "Facebook"
     #   icon: "fab fa-fw fa-facebook-square"
     #   # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/corinnekim"
     # - label: "GitLab"
     #   icon: "fab fa-fw fa-gitlab"
     #   # url: 
