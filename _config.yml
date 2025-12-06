@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dirt" # "air", "default", "aqua", "contrast", "dark", , "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "default", "dirt" , "aqua", "contrast", "dark", , "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -120,10 +120,10 @@ author:
   # email            :
   links:
     - label: "LinkedIn"
-      icon: "fab fa-linkedin-in"
+      # icon: "fab fa-linkedin-in"
       url: "https://www.linkedin.com/in/corinne-kim-585964272"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      # icon: "fab fa-fw fa-github"
       url: "https://github.com/corinnekim"
     # - label: "Email"
     #   icon: "fas fa-fw fa-envelope-square"
@@ -144,10 +144,10 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "GitHub"
+    - label: ""
       icon: "fab fa-fw fa-github"
       url: "https://github.com/corinnekim"
-    - label: "LinkedIn"
+    - label: ""
       icon: "fab fa-linkedin-in"
       url: "https://www.linkedin.com/in/corinne-kim-585964272"       
     # - label: "Twitter"
