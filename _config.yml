@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Corinne"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/themet.jpeg"
   bio              : "Hi there"
   # location         : "Jeongja-dong"
   # email            :
