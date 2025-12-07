@@ -1,0 +1,44 @@
+/* ========================================================================
+   Custom spacing for archive items and sidebar nav
+   Put this in: _sass/minimal-mistakes/_custom.scss
+   ======================================================================== */
+
+// /* archive page item spacing (categories) */
+// .blog-item,
+// .datascience-item,
+// .archive .archive-entry,
+// .archive-entry,
+// .archive .archive-card,
+// .archive .archive-list > li {
+//   margin-bottom: 1.2rem;
+//   /* 필요하면 아래 값 조절: 1.6rem -> 2rem 등 */
+// }
+
+/* sidebar navigation list item spacing (여러 테마 버전에 대응) */
+.sidebar .nav__items > li,
+.sidebar .nav-list > li,
+.sidebar nav ul > li,
+.sidebar .nav > li,
+.sidebar .nav__item {
+  margin-bottom: 0.4rem;
+}
+
+/* sidebar link block 처리: 링크 전체가 클릭 영역이 되도록(선택사항) */
+.sidebar .nav__link,
+.sidebar .nav-list a,
+.sidebar nav ul a {
+  display: block;
+  padding-block: 0.15rem;
+}
+
+/* 모바일에서 간격 줄이기(선택) */
+@media (max-width: 600px) {
+  .blog-item,
+  .datascience-item {
+    margin-bottom: 1rem;
+  }
+
+  .sidebar .nav__items > li {
+    margin-bottom: 0.5rem;
+  }
+}
