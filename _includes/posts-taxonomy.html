@@ -38,5 +38,9 @@
 
 {% for category in page.categories %}
   {% assign category_slug = category | downcase | replace: ' ', '-' %}
-  <a href="/blog/">{{ category }}</a>
+  {% if category_slug == 'blog' %}
+    <a href="/blog/">{{ category }}</a>
+  {% else %}
+    <a href="/categories/{{ category_slug }}/">{{ category }}</a>
+  {% endif %}
 {% endfor %}
