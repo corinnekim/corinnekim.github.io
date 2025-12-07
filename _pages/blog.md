@@ -2,6 +2,7 @@
 title: "Blog"
 layout: archive
 permalink: "/blog/"
+categories: [blog]
 ---
 
 {% assign posts = site.categories.blog %}
