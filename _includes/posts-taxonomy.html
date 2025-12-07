@@ -38,5 +38,9 @@
 
 {% for category in page.categories %}
   {% assign category_slug = category | downcase | replace: ' ', '-' %}
-  <a href="{{ '/' | append: category_slug | append: '/' | relative_url }}">{{ category }}</a>
+  {% if category_slug == 'blog' %}
+    <a href="{{ '/blog/' | relative_url }}">{{ category }}</a>
+  {% else %}
+    <a href="{{ '/categories/' | append: category_slug | append: '/' | relative_url }}">{{ category }}</a>
+  {% endif %}
 {% endfor %}
