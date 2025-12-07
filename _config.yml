@@ -31,7 +31,7 @@ masthead_title           : # overrides the website title displayed in the masthe
 breadcrumbs              : false
 words_per_minute         : 200
 enable_copy_code_button  : false
-copyright                : "Corinne Kim"
+copyright                : "Corinne Kim. All rights reserved"
 copyright_url            : https://corinnekim.github.io"
 comments:
   provider               : false # (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
