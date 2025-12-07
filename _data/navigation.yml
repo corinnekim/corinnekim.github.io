@@ -2,11 +2,19 @@
 main:
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "Blog"
-    url: https://corinnekim.github.io/blog
-  - title: "Projects"
-    url: https://corinnekim.github.io/Projects
+  - title: "About"
+    url: /about/
+  - title: "Tags"
+    url: /tags/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+sidebar-category:
+  - title: "Category"
+    children:
+      - title: "Data Science"
+        url: "/datascience/"
+      - title: "Blog"
+        url:  "/blog/"
