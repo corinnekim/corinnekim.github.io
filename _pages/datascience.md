@@ -2,6 +2,9 @@
 title: "Data Science"
 layout: archive
 permalink: /datascience/
+author_profile: true  
+sidebar:
+  nav: "sidebar-category"
 ---
 
 

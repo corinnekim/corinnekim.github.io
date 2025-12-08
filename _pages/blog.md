@@ -3,6 +3,9 @@ title: "Blog"
 layout: archive
 category: blog
 permalink: "/blog/"
+author_profile: true  
+sidebar:
+  nav: "sidebar-category"
 
 ---
 
