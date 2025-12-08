@@ -118,6 +118,7 @@ author:
   bio              : "Hi there"
   # location         : "Jeongja-dong"
   # email            :
+  home   : "/"
   links:
     - label: "LinkedIn"
       icon: "fab fa-linkedin-in"
