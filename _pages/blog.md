@@ -1,8 +1,9 @@
 ---
 title: "Blog"
 layout: archive
+category: blog
 permalink: "/blog/"
-categories: [blog]
+
 ---
 
 {% assign posts = site.categories.blog %}
