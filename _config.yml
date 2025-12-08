@@ -22,7 +22,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Corinne"
 description              : "exploring data science, coding, and ideas"
-url                      : "corinnekim.github.io"
+url                      : "https://corinnekim.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "corinnekim/corinnekim.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -331,6 +331,5 @@ defaults:
       comments: # true
       share: true
       related: true
-      sidebar:                  # 추가한 부분
+      sidebar:                 
         nav: "sidebar-category"
-    
