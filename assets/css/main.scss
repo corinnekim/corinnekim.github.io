@@ -5,20 +5,6 @@ search: false
 
 @charset "utf-8";
 
-/* 1. 전체 화면 최대 너비 (중요!) */
-/* 사이드바를 넓힐 거면, 이 전체 폭도 같이 늘려줘야 본문이 안 좁아집니다. */
-/* 기본값(1280px)보다 훨씬 넓게 1600px~1800px 정도로 잡으세요. */
-$max-width: 1600px;
-
-/* 2. 사이드바 너비 (님이 찾으신 그 변수!) */
-/* 이름은 right지만 실제로는 왼쪽 사이드바 너비를 조절하고 있습니다. */
-/* 300px ~ 400px 사이로 원하는 만큼 늘리세요. */
-$right-sidebar-width: 280px;
-
-/* 3. (혹시 모르니) 왼쪽 사이드바 변수도 같이 맞춰주기 */
-/* 혹시 다른 페이지에서는 이 변수를 쓸 수도 있으니 둘 다 똑같이 맞추는 게 안전합니다. */
-$sidebar-width: 280px;
-
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
