@@ -327,10 +327,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: false
+      read_time: true
       comments: # true
       share: true
       related: true
-    sidebar:                  # 추가한 부분
-      nav: "sidebar-category"
+      sidebar:                  # 추가한 부분
+        nav: "sidebar-category"
     

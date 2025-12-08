@@ -4,11 +4,7 @@ title: "Predicting Love: Feature Engineering with Speed Dating Data"  # 글 제�
 date: 2025-12-08                 # 작성 날짜
 category: [datascience]        # 카테고리 지정
 # tags: [datascience, machinelearning, python, eda, feature-engineering] # 검색용 태그
-author_profile: true             # (선택) 프로필 표시 여부
-sidebar:                         # (선택) 목차 생성
-  nav: "main"
-  permalink: /datascience/feature-engineering/
-math: true                       # (중요) 수학 공식을 쓴다면 true로 설정
+math: true                       # 수학 공식을 쓴다면 true로 설정
 ---
 
 ## What Makes Data Scientists Different?    
