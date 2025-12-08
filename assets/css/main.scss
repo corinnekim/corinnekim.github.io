@@ -5,6 +5,18 @@ search: false
 
 @charset "utf-8";
 
+/* 1. 전체 화면 너비 */
+$x-large: 1500px;    
+
+/* 2. 본문 글자 상자 제한 해제 */
+$max-width: 1500px;  
+
+/* 3. [중요] 사이드바 너비
+   (왼쪽에 있어도 변수명은 right-sidebar-width를 써야 작동합니다!)
+   300px은 너무 좁으니 400px로 키웠습니다. */
+$right-sidebar-width: 350px;
+
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 @import "minimal-mistakes/custom";
