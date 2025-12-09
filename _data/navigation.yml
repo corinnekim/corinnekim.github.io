@@ -18,5 +18,7 @@ sidebar-category:
     children:
       - title: "Data Science"
         url: "/datascience/"
+      - title: "Statistics"
+        url: "/statistics/"
       - title: "Blog"
         url:  "/blog/"

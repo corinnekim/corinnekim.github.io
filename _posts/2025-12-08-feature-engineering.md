@@ -3,7 +3,7 @@ layout: single
 title: "Predicting Love: Feature Engineering with Speed Dating Data"  # 글 제목
 date: 2025-12-08                 # 작성 날짜
 category: [datascience]        # 카테고리 지정
-# tags: [datascience, machinelearning, python, eda, feature-engineering] # 검색용 태그
+tags: [datascience, machinelearning, python, eda, feature-engineering] # 검색용 태그
 math: true                       # 수학 공식을 쓴다면 true로 설정
 ---
 
