@@ -7,6 +7,9 @@ tags: [standard error, confidence interval, t-score]
 math: true
 ---
 ## Inferential Statistics
+<br>
+![](/assets/images/inferential_stats.png){: width='50%'}
+<br>
 
 * `What we want to know`: &nbsp;the population mean and population standard deviation
 * `What we already know`: &nbsp;the sample size, sample mean, and sample standard deviation   
