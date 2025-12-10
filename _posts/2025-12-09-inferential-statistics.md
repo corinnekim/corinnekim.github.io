@@ -5,6 +5,8 @@ date: 2025-12-09
 categories: [statistics]
 tags: [standard error, confidence interval, t-score]
 math: true
+toc: true
+toc_sticky: true
 ---
 ## Inferential Statistics
 <br>

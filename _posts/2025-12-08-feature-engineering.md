@@ -5,6 +5,8 @@ date: 2025-12-08                 # 작성 날짜
 category: [datascience]        # 카테고리 지정
 tags: [datascience, machinelearning, python, eda, feature-engineering] # 검색용 태그
 math: true                       # 수학 공식을 쓴다면 true로 설정
+toc: true
+toc_sticky: true
 ---
 
 ## What Makes Data Scientists Different?    
@@ -33,10 +35,10 @@ There are various techniques to engineer features:
 * **Interaction:** Creating a new feature by combining two or more existing features.        
       
 
-## Feature Engineering Example - Speed Dating Data
+## Example - Speed Dating Data
    
      
-### 1. Dataset Overview
+- Dataset Overview
 <br>
 ![](/assets/images/zootopia.jpeg){: width="60%"}
 <br> 
@@ -141,7 +143,7 @@ dating_df.drop(['race', 'race_o', 'importance_same_race', 'same_race'], axis = 1
 
 
 
-## 3. Handling 24 Rating Features
+## 3. Rating Features
 So far, we've got two predictive features: `age_gap` and `same_race_weighted`. Yay!            
 However, the **real problem** is...
 <br>
