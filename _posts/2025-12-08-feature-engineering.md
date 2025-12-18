@@ -143,7 +143,7 @@ dating_df.drop(['race', 'race_o', 'importance_same_race', 'same_race'], axis = 1
 
 
 
-## 3. Rating Features
+## 3.  Rating Features
 So far, we've got two predictive features: `age_gap` and `same_race_weighted`. Yay!            
 However, the **real problem** is...
 <br>
