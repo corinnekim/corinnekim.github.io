@@ -16,7 +16,7 @@ Let's be honest—**Bayesian Statistics** isn't easy to grasp at first. Terms li
 
 <!-- ![](/assets/images/what_the_heck.jpeg){: width='50%'} -->
          
-As I dug deeper, however, I realized it’s not just abstract math. It's such a **powerful framework for reasoning**.
+As I dug deeper, however, I realized it’s not just abstract math. It is such a **powerful framework for reasoning**.
 
 In this post, I'll explore **three practical ways** data scientists use Bayes' Rule in the **Tech industry**.
 
