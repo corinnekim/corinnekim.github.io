@@ -54,6 +54,9 @@ https://www.dynamicyield.com/lesson/running-effective-bayesian-ab-tests/ -->
 
 ## 2. Hyperparameter Tuning Optimization
 **Hyperparameters** are external settings that control the training process, such as learning rate or network depth. Unlike internal weights, they are non-differentiable—meaning we can't calculate a gradient to optimize them directly.
+<br>
+
+![](/assets/images/optimization.png){: width='80%'}
 
 Since training is expensive, **Grid Search** is inefficient here because it's **memoryless**. It blindly tries 0.001 even if 0.0009 performed terribly, ignoring past failures.
 
@@ -78,7 +81,7 @@ We solve this with [Thompson Sampling](https://www.youtube.com/watch?v=nkyDGGQ5h
 
 - `Handling Uncertainty`: For a new show, <span style="background-color: #fff5b1">the curve is wide.</span> The algorithm gives it the benefit of the doubt, occasionally pushing it to test the waters.
 
-- `Minimizing Opportunity Costs`: It instantly shifts traffic to the best performer, minimizing the regret of low-performing content.
+- `Minimizing Opportunity Costs`: It instantly shifts traffic to the best performer , minimizing the regret of low-performing content.
 
 - `Instant Feedback`: As soon as a user clicks (or ignores), the probability <span style="background-color: #fff5b1">**updates.**</span> The model learns to promote viral hits and bury flops much faster than rigid testing.
 
