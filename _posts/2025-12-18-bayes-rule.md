@@ -26,9 +26,9 @@ In this post, I'll explore **three practical ways** data scientists use Bayes' R
 3. Bayes' Rule is NOT difficult! (Posterior)      -->
 
 ## 1. A/B testing
-The industry is shifting towards [Bayesian methods](https://www.dynamicyield.com/lesson/bayesian-testing/) because they offer what modern product teams crave — **speed, clarity, and flexibility**.
+Modern product teams increasingly prefer [Bayesian methods](https://www.dynamicyield.com/lesson/bayesian-testing/) because they offer **speed, clarity, and flexibility**.
 
-**Better Communicator**     
+**Clearer Communication**     
 Bayesian methods close the gap between data scientists and stakeholders.
 
 - `The Old Way`: "We reject the null hypothesis since the p-value is < 0.05, so it is statistically significant."
@@ -38,9 +38,9 @@ Bayesian methods close the gap between data scientists and stakeholders.
 **The Freedom to Peek**    
 Unlike traditional testing that forbids "peeking" before hitting a fixed sample size, Bayesian testing lets us watch and act on the fly.
 
-- `Probability to be Best`: We track this metric live as data streams in, seeing exactly <span style="background-color: #fff5b1">the current probability that Version B is winning.</span>
+- `Probability to be the Best (P2BB)`: We track this metric live as data streams in, seeing exactly <span style="background-color: #fff5b1">the current probability that Version B is winning.</span>
 
-- `Stop & Ship`: If Version B hits 99% probability after 10k visitors, **why wait for 100k?** We can stop early and deploy the better variant. This agility saves massive amounts of time and traffic.
+- `Stop & Ship`: If Version B hits 99% probability after 10k visitors, **why wait for 100k?** We can stop early and deploy it. This agility saves massive amounts of time and traffic.
 <br>
 <figure>
   <img src="/assets/images/bayesian_ab_testing.webp" alt="Bayesian A/B Testing">
@@ -52,17 +52,21 @@ Unlike traditional testing that forbids "peeking" before hitting a fixed sample 
 <!-- https://www.dynamicyield.com/lesson/bayesian-testing/
 https://www.dynamicyield.com/lesson/running-effective-bayesian-ab-tests/ -->
 
-## 2. Hyperparameter Tuning Optimization
-**Hyperparameters** are external settings that control the training process, such as learning rate or network depth. Unlike internal weights, they are non-differentiable—meaning we can't calculate a gradient to optimize them directly.
+## 2. Hyperparameter Tuning
+**Hyperparameters** are external settings that control training, like learning rate or network depth.     
+<br>
+Unlike internal weights, we lack a **mathematical map(gradient)** to calculate the best values instantly. We have to find them through trial and error. 
 <br>
 
 ![](/assets/images/optimization.png){: width='80%'}
 
-Since training is expensive, **Grid Search** is inefficient here because it's **memoryless**. It blindly tries 0.001 even if 0.0009 performed terribly, ignoring past failures.
+**Grid Search**, which tests every pre-set combination, is <span style="background-color: #fff5b1">reliable but memoryless.</span>  
+<br>
+It will try **0.001** even if a nearby value like **0.0009** performed poorly, ignoring previous results. Since training is expensive, this becomes **inefficient** for complex models.
 
-In contrast, **Bayesian Optimization** learns from history.
+In contrast, **Bayesian Optimization** builds its own map as it goes. It uses past results to form a **probabilistic model**, intelligently guiding the search toward the most promising areas.
 
-- `The Surrogate Model`: It builds a <span style="background-color: #fff5b1">lightweight probability map</span> (usually a [Gaussian Process](https://distill.pub/2019/visual-exploration-gaussian-processes/)) to guess where the best performance lies, without training the heavy model every time.
+- `The Surrogate Model`: It builds a <span style="background-color: #fff5b1">lightweight probability map</span> (usually a [Gaussian Process](https://distill.pub/2019/visual-exploration-gaussian-processes/)) to estimate where the best performance lies, without training the heavy model every time.
 
 - `Smart Search`: It balances **Exploration** (trying new areas) and **Exploitation** (refining promising areas) to find the global optimum efficiently.
 <br>
@@ -75,16 +79,16 @@ In contrast, **Bayesian Optimization** learns from history.
 ![](/assets/images/netflix.jpeg){: width='80%'}
 <br>
 
-Imagine Netflix drops a new show. It has zero views, so traditional stats (like average rating) are useless. This is the **Cold Start** problem.
+Imagine **Netflix** drops a new show. It has zero views, so we don't have stats like average rating yet. This is the **Cold Start** problem.
 
 We solve this with [Thompson Sampling](https://www.youtube.com/watch?v=nkyDGGQ5h60). Instead of waiting for a fixed score, Bayesian methods treat popularity as a **probability curve**.
 
 - `Handling Uncertainty`: For a new show, <span style="background-color: #fff5b1">the curve is wide.</span> The algorithm gives it the benefit of the doubt, occasionally pushing it to test the waters.
 
-- `Minimizing Opportunity Costs`: It instantly shifts traffic to the best performer , minimizing the regret of low-performing content.
+- `Minimizing Opportunity Costs`: The algorithm instantly shifts traffic to the best performer, minimizing the regret of low-performing content.
 
 - `Instant Feedback`: As soon as a user clicks (or ignores), the probability <span style="background-color: #fff5b1">**updates.**</span> The model learns to promote viral hits and bury flops much faster than rigid testing.
 
 
 ## Summary
-> Bayesian methods are practical because they **continuously update based on evidence**. This ability to "learn as we go" is crucial when resources are limited. From optimizing A/B tests to personalizing Netflix recommendations, the Bayesian framework helps us build smarter, more efficient systems.
+> The real power of Bayesian methods is the ability to **adapt**. Instead of waiting for perfect data, we learn as we go. In today's fast-paced environment, the Bayesian framework is more relevant than ever.
