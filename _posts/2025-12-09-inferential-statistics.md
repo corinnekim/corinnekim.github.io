@@ -22,7 +22,7 @@ toc_sticky: true
     \bar{X} \sim N\left(\mu, \frac{\sigma^2}{n}\right)
     $$
 
-    * `Central Limit Theorem (CLT):` Even if the population isn’t normally distributed, the sampling distribution of the mean becomes **approximately normal** once our sample size $n$ is large enough (usually $n \ge 30$).    
+    * `Central Limit Theorem (CLT):` Even if the population is not normally distributed, the sampling distribution of the mean becomes **approximately normal** once our sample size $n$ is large enough (usually $n \ge 30$).    
 <br>
 
 * **Sample error** ($\bar{X}$ - $\mu$) follows a normal distribution with a mean 0 and a standard deviation $\frac{\sigma}{\sqrt{n}}$ as the sample size grows.
