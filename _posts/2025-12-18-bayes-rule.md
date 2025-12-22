@@ -83,7 +83,7 @@ Imagine **Netflix** drops a new show. It has zero views, so we don't have stats 
 
 We solve this with [Thompson Sampling](https://www.youtube.com/watch?v=nkyDGGQ5h60). Instead of waiting for a fixed score, Bayesian methods treat popularity as a **probability curve**.
 
-- `Handling Uncertainty`: For a new show, <span style="background-color: #fff5b1">the curve is wide.</span> The algorithm gives it the benefit of the doubt, occasionally pushing it to test the waters.
+- `Handling Uncertainty`: For a new show, <span style="background-color: #fff5b1">the probability curve is wide.</span> The algorithm gives it the benefit of the doubt, occasionally pushing it to test the waters.
 
 - `Minimizing Opportunity Costs`: The algorithm instantly shifts traffic to the best performer, minimizing the regret of low-performing content.
 
