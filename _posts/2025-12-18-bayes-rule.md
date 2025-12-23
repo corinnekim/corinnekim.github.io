@@ -18,7 +18,7 @@ Let's be honest—**Bayesian Statistics** isn't easy to grasp at first. Terms li
          
 As I dug deeper, however, I realized it’s not just abstract math. It is such a **powerful framework for reasoning**.
 
-In this post, I'll explore **three practical ways** data scientists use Bayes' Rule in the **Tech industry**.
+In this post, we'll explore **three practical ways** data scientists use Bayes' Rule in the **Tech industry**.
 
 <!-- It is all about 'Updating' your prior belief.
 1. Bayes' Rule is too difficult. (Prior belief)   
