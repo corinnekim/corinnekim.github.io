@@ -8,10 +8,6 @@ math: true
 toc: true
 toc_sticky: true
 ---
-<!-- ![](/assets/images/bayes.png){: width='60%'}
-<!-- [Bayesian methods](https://www.dynamicyield.com/lesson/bayesian-testing/) -->
-<!-- <span style="background-color: #fff5b1">text</span> -->
-
 ## Bias-Variance Tradeoff
 
 In this post, I’ll break down a core ML concept: the bias–variance tradeoff.
@@ -54,8 +50,8 @@ As a model gets more complex, bias and variance usually move in opposite directi
 
 As you increase complexity, error often drops at first. But if you keep going, variance starts to dominate and total error rises again.
 
-- On the left side, the model is too simple, so it underfits — high bias, low variance.     
-- On the right side, the model is too flexible, so it overfits — low bias, high variance.      
+- On the left side, the model is too simple, so it underfits — <span style="background-color: #fff5b1">high bias, low variance.</span>  
+- On the right side, the model is too flexible, so it overfits — <span style="background-color: #fff5b1">low bias, high variance.</span>
 
 What we want is the dip in the middle — the “Goldilocks” zone — where bias and variance balance out and total error is lowest. The goal in ML is to find that **sweet spot**, where the model learns the general pattern without overfitting the noise.
 
@@ -66,7 +62,7 @@ In practice, that comes down to three things: (1) estimate validation error, (2)
 <br>
 **Cross-validation (CV)**     
 CV splits the training data into 𝑘 folds (often 5 or 10) and evaluates the model 𝑘 times, each time holding out a different fold.
-It averages the 𝑘 scores, which helps you pick hyperparameters that perform well across folds and generalize better to new data.
+It **averages the 𝑘 scores**, which helps you pick hyperparameters that perform well across folds and generalize better to new data.
  
 **Regularization**    
 High variance often happens when the model uses really large coefficients to fit the training points too closely.     
@@ -78,12 +74,12 @@ Plot training and validation error as you increase the number of training exampl
 
 ![](/assets/images/bias-variance/learning-curve-underfit.png){: width='70%'}
 
-If both curves stay high and close, the model has high bias (underfitting).      
+If both curves <span style="background-color: #fff5b1">stay high and close,</span> the model has high bias (underfitting).      
 It can’t fit the training set well and adding more data doesn’t help much.
 
 ![](/assets/images/bias-variance/learning-curve-overfit.png){: width='70%'}
 
-If training error is low but validation error stays much higher, the model is fitting noise (overfitting).     
+If <span style="background-color: #fff5b1">training error is low but validation error stays much higher,</span> the model is fitting noise (overfitting).     
 It’s doing well on the training set, but that performance doesn’t carry over to new data.
 
 ![](/assets/images/bias-variance/learning-curve-ideal.png){: width='70%'}
@@ -95,4 +91,4 @@ Ideally, the model fits the training data reasonably well and also generalizes t
 - Generalization error is shaped by bias, variance, and noise.
 - Bias is the model’s average error across different training sets.
 - Variance is how sensitive the model is to changes in the training set.
-- Ultimately, there’s no perfect model — the job is finding the one with the right trade-off for your data.
+- Ultimately, there’s no perfect model — <span style="background-color: #fff5b1">the job is finding the one with the right trade-off for your data.</span>
