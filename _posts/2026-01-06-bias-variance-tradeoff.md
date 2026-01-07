@@ -91,4 +91,4 @@ Ideally, the model fits the training data reasonably well and also generalizes t
 - Generalization error is shaped by bias, variance, and noise.
 - Bias is the model’s average error across different training sets.
 - Variance is how sensitive the model is to changes in the training set.
-- Ultimately, there’s no perfect model — <span style="background-color: #fff5b1">the job is finding the one with the right trade-off for your data.</span>
+- There’s no perfect model — <span style="background-color: #fff5b1">the job is finding the one with the right trade-off for your data.</span>
