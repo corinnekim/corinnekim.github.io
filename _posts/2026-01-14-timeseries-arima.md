@@ -11,10 +11,10 @@ toc_sticky: true
 <!-- <span style="background-color: #fff5b1">text</span> -->
 ![](/assets/images/arima/arima.png){: width='80%'}
 
-**ARIMA** is where time-series modeling usually starts. Let’s break it down and practice the workflow in Python.
+**ARIMA** is a fundamental model in time-series analysis. Let’s break it down and practice the workflow with Python.
 
 ## What is ARIMA?
-Arima stands for AutoRegressive Integrated Moving Average. The basic idea is to <span style="background-color: #fff5b1">separate what’s predictable from what’s basically random.</span>     
+ARIMA stands for AutoRegressive Integrated Moving Average. The basic idea is to <span style="background-color: #fff5b1">separate what’s predictable from what’s basically random.</span>     
 <br>
 Any time series $y_t$ has two parts:
 1. a part you can model (trend, seasonality, cycles, etc.)    
