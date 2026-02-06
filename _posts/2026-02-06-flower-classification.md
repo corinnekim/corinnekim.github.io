@@ -197,7 +197,7 @@ print(f"\nTest Loss: {test_loss:.4f}")
 ![](/assets/images/flowers/step2-result.png){: width='100%'}
 
 Training stopped at epoch 11, and the model restored the best weights from epoch 6.
-Test accuracy increased by **2.72%p** over the baseline.
+Test accuracy increased by **2.72%p** over the baseline. (92.10% -> 94.82%)
 
 ## Step 3. Fine-Tuning EfficientNetB0
 
