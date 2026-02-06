@@ -15,7 +15,7 @@ toc_sticky: true
 
 I built a flower classification model with transfer learning and experimented with different models, hyperparameters, and fine-tuning setups.
 
-I used the popular [tensorflow flower dataset](https://www.tensorflow.org/datasets/catalog/tf_flowers), which contains about **3,670** images across **5** classes.
+I used the popular [tensorflow flower dataset](https://www.tensorflow.org/datasets/catalog/tf_flowers){:target="_blank" rel="noopener noreferrer"}, which contains about **3,670** images across **5** classes.
 
 ```text
 0 - dandelion
