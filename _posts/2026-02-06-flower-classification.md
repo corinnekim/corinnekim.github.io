@@ -13,7 +13,7 @@ toc_sticky: true
 ![](/assets/images/flowers/flowers-la.png){: width='60%'}
 <br>
 
-I trained a deep learning model using transfer learning and compared different models, hyperparameters, and fine-tuning strategies to see how they affected performance. 
+I built a flower classification model with transfer learning and experimented with different models, hyperparameters, and fine-tuning setups.
 
 I used the popular [tensorflow flower dataset](https://www.tensorflow.org/datasets/catalog/tf_flowers), which contains about **3,670** images across **5** classes.
 
