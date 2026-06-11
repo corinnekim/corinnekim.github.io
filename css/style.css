@@ -217,17 +217,14 @@ main { padding-top: var(--header-h); }
 .entry-list {
   display: flex;
   flex-direction: column;
+  gap: 32px;
 }
+#education .entry-list { gap: 35px; }
+#coursework .entry-list { gap: 29px; }
 .entry {
   display: grid;
   grid-template-columns: 1fr auto;
   column-gap: 24px;
-  padding: 24px 0;
-  border-top: 1px solid var(--line);
-}
-.entry:first-child {
-  border-top: 0;
-  padding-top: 0;
 }
 .entry-main {
   grid-column: 1;
@@ -288,6 +285,10 @@ main { padding-top: var(--header-h); }
   margin-top: 4px;
   color: var(--muted);
   font-size: 0.92rem;
+}
+.cw-status {
+  color: var(--muted);
+  font-size: 0.85rem;
 }
 
 /* Projects */

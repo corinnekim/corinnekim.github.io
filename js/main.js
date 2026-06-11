@@ -277,6 +277,14 @@ function renderCoursework() {
     }
 
     entry.appendChild(main);
+
+    if (c.status) {
+      const side = document.createElement("div");
+      side.className = "entry-side cw-status";
+      side.textContent = c.status;
+      entry.appendChild(side);
+    }
+
     list.appendChild(entry);
   });
 }

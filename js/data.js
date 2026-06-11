@@ -78,8 +78,8 @@ const I18N = {
     ],
     coursework: [
       { courses: "Linear Algebra (A), Statistics for Data Analysis (A)", school: "University of California, San Diego" },
-      { courses: "Calculus", school: "Seoul Cyber University" },
-      { courses: "Data Structure, Algorithm", school: "Megazone IT" }
+      { courses: "Calculus", school: "Seoul Cyber University", status: "In progress" },
+      { courses: "Data Structure, Algorithm", school: "Megazone IT", status: "In progress" }
     ],
     footer: {
       thanks: "감사합니다.",
