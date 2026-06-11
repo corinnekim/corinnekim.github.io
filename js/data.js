@@ -69,7 +69,7 @@ const I18N = {
       {
         title: "GDELT 위성 촬영 스케줄링 자동화",
         stack: "Kalman Filter | LLM | Anomaly Detection",
-        summary: "전 세계 뉴스 빅데이터에서 분쟁 골든타임 안에 어떤 도시를 언제, 어떤 위성으로 찍을지를 자동으로 산출해 판독관의 촬영 의사결정을 돕는 시스템입니다.",
+        summary: "전 세계 뉴스 빅데이터에서 분쟁 골든타임 안에 어떤 도시를 언제, 어떤 위성으로 찍을지를 자동으로 산출하는 시스템입니다.",
         image: "assets/images/gdelt_0.jpg",
         link: "https://sweltering-crane-02b.notion.site/GDELT-LLM-2ec96d4e0a4983eab5ee818b605b3400"
       }
