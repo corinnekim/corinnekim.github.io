@@ -13,7 +13,7 @@ const I18N = {
       headline: "안녕하세요, 데이터 사이언티스트 김선우입니다.",
       paragraphs: [
         "저는 복잡한 데이터에서 예상치 못한 패턴을 발견할 때 재미를 느낍니다.",
-        "미국 LA 인턴십 당시, 감으로 하던 기존 발주 방식에서 SQL로 판매 데이터를 분석해 데이터 기반 의사결정으로 바꿨습니다. 이 경험이 데이터 사이언티스트가 되기로 한 계기입니다.",
+        "미국 LA 인턴십 당시, 감으로 하던 기존 발주 방식을 SQL로 판매 데이터를 분석해 데이터 기반 의사결정으로 바꿨습니다. 이 경험이 데이터 사이언티스트가 되기로 한 계기입니다.",
         "경영학부에서 출발해 패션 산업을 거쳐 데이터 사이언스로 방향을 바꾸고, 네덜란드와 미국에서 낯선 환경에 빠르게 적응해 왔습니다. 선형대수, 통계학, 자료구조 등을 수강하며 수학과 CS 기초를 다졌습니다.",
         "새로운 도메인과 불완전한 데이터 속에서도 스스로 질문을 던지고 답을 찾아가는 과정을 즐깁니다. 끝까지 파고들어 나만의 인사이트를 찾아내는 데이터 사이언티스트가 되고 싶습니다."
       ]
@@ -64,9 +64,16 @@ const I18N = {
       {
         title: "GDELT 위성 촬영 스케줄링 자동화",
         stack: "Kalman Filter | LLM | Anomaly Detection",
-        summary: "전 세계 뉴스 빅데이터에서 분쟁 골든타임 안에 어떤 도시를 언제, 어떤 위성으로 찍을지를 자동으로 산출하는 시스템입니다.",
+        summary: "전 세계 뉴스 빅데이터에서 위성 촬영 골든타임 안에 어떤 도시를 언제, 어떤 위성으로 찍을지를 자동으로 산출하는 시스템입니다.",
         image: "assets/images/gdelt_0.jpg",
         link: "https://sweltering-crane-02b.notion.site/GDELT-LLM-2ec96d4e0a4983eab5ee818b605b3400"
+      },
+      {
+        title: "MovieLens 영화 추천 시스템",
+        stack: "AutoInt+ | Recommendation | Bias Correction",
+        summary: `넷플릭스의 CEE(Continuous Explore Exploit) 프레임워크를 바탕으로, "사용자가 싫어할 만한 것은 추천하지 않는다"는 철학을 시스템 전반에 구현했습니다.`,
+        image: "assets/images/netflix.jpeg",
+        link: "https://github.com/corinnekim/Movie-Recommendation-System"
       }
     ],
     skills: [
