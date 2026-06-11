@@ -268,25 +268,6 @@ function setupMobileMenu() {
   );
 }
 
-// 한/영 토글
-function setupLangToggle() {
-  const btn = document.getElementById("lang-toggle");
-  btn.textContent = lang === "ko" ? "EN" : "KO";
-
-  btn.addEventListener("click", () => {
-    const next = lang === "ko" ? "en" : "ko";
-    if (!I18N[next]) return;
-    lang = next;
-    btn.textContent = lang === "ko" ? "EN" : "KO";
-    applyText();
-    renderIntro();
-    renderEducation();
-    renderExperience();
-    renderProjects();
-    renderSkills();
-  });
-}
-
 applyText();
 renderIntro();
 renderSocial();
@@ -295,4 +276,3 @@ renderExperience();
 renderProjects();
 renderSkills();
 setupMobileMenu();
-setupLangToggle();
