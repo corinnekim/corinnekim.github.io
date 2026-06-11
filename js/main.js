@@ -250,6 +250,37 @@ function renderSkills() {
   });
 }
 
+// Relevant Coursework 렌더 (기관별 과목)
+function renderCoursework() {
+  const list = document.getElementById("coursework-list");
+  if (!list) return;
+  const items = I18N[lang].coursework || [];
+  list.innerHTML = "";
+
+  items.forEach((c) => {
+    const entry = document.createElement("div");
+    entry.className = "entry";
+
+    const main = document.createElement("div");
+    main.className = "entry-main";
+
+    const courses = document.createElement("div");
+    courses.className = "cw-courses";
+    courses.textContent = c.courses;
+    main.appendChild(courses);
+
+    if (c.school) {
+      const school = document.createElement("div");
+      school.className = "cw-school";
+      school.textContent = c.school;
+      main.appendChild(school);
+    }
+
+    entry.appendChild(main);
+    list.appendChild(entry);
+  });
+}
+
 // 모바일 햄버거 메뉴
 function setupMobileMenu() {
   const toggle = document.getElementById("nav-toggle");
@@ -275,4 +306,5 @@ renderEducation();
 renderExperience();
 renderProjects();
 renderSkills();
+renderCoursework();
 setupMobileMenu();

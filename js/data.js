@@ -15,14 +15,15 @@ const I18N = {
         "저는 복잡한 데이터에서 예상치 못한 패턴을 발견할 때 재미를 느낍니다.",
         "미국 LA 인턴십 당시, 감으로 하던 기존 발주 방식에서 SQL로 판매 데이터를 분석해 데이터 기반 의사결정으로 바꿨습니다. 이 경험이 데이터 사이언티스트가 되기로 한 계기입니다.",
         "경영학부에서 출발해 패션 산업을 거쳐 데이터 사이언스로 방향을 바꾸고, 네덜란드와 미국에서 낯선 환경에 빠르게 적응해 왔습니다. 선형대수, 통계학, 자료구조 등을 수강하며 수학과 CS 기초를 다졌습니다.",
-        "새로운 도메인과 불완전한 데이터 속에서도 스스로 질문을 세우고 답을 찾아가는 과정을 즐깁니다. 끝까지 파고들어 나만의 인사이트를 찾아내는 데이터 사이언티스트가 되고 싶습니다."
+        "새로운 도메인과 불완전한 데이터 속에서도 스스로 질문을 던지고 답을 찾아가는 과정을 즐깁니다. 끝까지 파고들어 나만의 인사이트를 찾아내는 데이터 사이언티스트가 되고 싶습니다."
       ]
     },
     titles: {
       education: "Education",
       experience: "Work Experience",
       projects: "Projects",
-      skills: "Skills"
+      skills: "Skills",
+      coursework: "Relevant Coursework"
     },
     education: [
       {
@@ -38,12 +39,6 @@ const I18N = {
         period: "2023.01 - 2023.12",
         location: "The Hague, Netherlands",
         degree: "Exchange Program, International Business"
-      },
-      {
-        school: "University of California, San Diego",
-        period: "2025.09 - 2025.12",
-        location: "Online",
-        courses: "Linear Algebra, Statistics for Data Analysis"
       }
     ],
     experience: [
@@ -80,6 +75,11 @@ const I18N = {
       { label: "ML / Statistics", items: "scikit-learn, ARIMA, Kalman Filter" },
       { label: "LLM", items: "OpenAI·Gemini API, LangChain, RAG, Prompt Engineering" },
       { label: "Tools", items: "Git, Streamlit, Claude Code" }
+    ],
+    coursework: [
+      { courses: "Linear Algebra (A), Statistics for Data Analysis (A)", school: "University of California, San Diego" },
+      { courses: "Calculus", school: "Seoul Cyber University" },
+      { courses: "Data Structure, Algorithm", school: "Megazone IT" }
     ],
     footer: {
       thanks: "감사합니다.",
