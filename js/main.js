@@ -67,9 +67,6 @@ function renderEducation() {
     const entry = document.createElement("div");
     entry.className = "entry";
 
-    const row = document.createElement("div");
-    row.className = "entry-row";
-
     const main = document.createElement("div");
     main.className = "entry-main";
     const school = document.createElement("div");
@@ -89,14 +86,7 @@ function renderEducation() {
       }
       main.appendChild(degree);
     }
-
-    if (e.courses) {
-      const detail = document.createElement("div");
-      detail.className = "entry-detail";
-      detail.textContent = "Courses: " + e.courses;
-      main.appendChild(detail);
-    }
-    row.appendChild(main);
+    entry.appendChild(main);
 
     const side = document.createElement("div");
     side.className = "entry-side";
@@ -110,8 +100,14 @@ function renderEducation() {
       loc.textContent = e.location;
       side.appendChild(loc);
     }
-    row.appendChild(side);
-    entry.appendChild(row);
+    entry.appendChild(side);
+
+    if (e.courses) {
+      const detail = document.createElement("div");
+      detail.className = "entry-detail";
+      detail.textContent = "Courses: " + e.courses;
+      entry.appendChild(detail);
+    }
 
     list.appendChild(entry);
   });
@@ -128,9 +124,6 @@ function renderExperience() {
     const entry = document.createElement("div");
     entry.className = "entry";
 
-    const row = document.createElement("div");
-    row.className = "entry-row";
-
     const main = document.createElement("div");
     main.className = "entry-main";
     const company = document.createElement("div");
@@ -143,17 +136,7 @@ function renderExperience() {
       role.textContent = x.role;
       main.appendChild(role);
     }
-    if (x.bullets && x.bullets.length) {
-      const ul = document.createElement("ul");
-      ul.className = "entry-bullets";
-      x.bullets.forEach((b) => {
-        const li = document.createElement("li");
-        li.textContent = b;
-        ul.appendChild(li);
-      });
-      main.appendChild(ul);
-    }
-    row.appendChild(main);
+    entry.appendChild(main);
 
     const side = document.createElement("div");
     side.className = "entry-side";
@@ -167,8 +150,18 @@ function renderExperience() {
       loc.textContent = x.location;
       side.appendChild(loc);
     }
-    row.appendChild(side);
-    entry.appendChild(row);
+    entry.appendChild(side);
+
+    if (x.bullets && x.bullets.length) {
+      const ul = document.createElement("ul");
+      ul.className = "entry-bullets";
+      x.bullets.forEach((b) => {
+        const li = document.createElement("li");
+        li.textContent = b;
+        ul.appendChild(li);
+      });
+      entry.appendChild(ul);
+    }
 
     list.appendChild(entry);
   });
