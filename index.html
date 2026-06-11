@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Sunwoo Kim | Data Scientist</title>
+  <meta name="description" content="Sunwoo Kim, Data Scientist. 낯선 도메인과 불완전한 데이터 속에서 스스로 질문을 세우고 인사이트를 찾습니다." />
+  <meta name="theme-color" content="#f4f3ee" />
+
+  <!-- 공유 미리보기, og.png 넣으면 카톡 슬랙 링크드인에서 썸네일로 뜬다 -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Sunwoo Kim | Data Scientist" />
+  <meta property="og:description" content="데이터에서 예상치 못한 패턴을 찾는 데이터 사이언티스트, 김선우 포트폴리오." />
+  <meta property="og:url" content="https://corinnekim.github.io/" />
+  <meta property="og:image" content="assets/images/og.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="css/style.css?v=11" />
+</head>
+<body>
+
+  <!-- 상단 고정 네비, 좌측 이름은 Sunwoo Kim 고정 -->
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#home">Sunwoo Kim</a>
+
+      <nav class="nav" id="nav">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home" data-i18n="nav.home"></a></li>
+          <li><a href="#education" data-i18n="nav.education"></a></li>
+          <li><a href="#experience" data-i18n="nav.experience"></a></li>
+          <li><a href="#projects" data-i18n="nav.projects"></a></li>
+        </ul>
+
+        <a class="nav-resume" id="resume-link" target="_blank" rel="noopener" data-i18n="nav.resume"></a>
+
+        <button class="lang-toggle" id="lang-toggle" type="button"></button>
+
+        <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="home" class="section home">
+      <div class="home-grid">
+        <div class="home-text">
+          <h1 class="home-headline" data-i18n="intro.headline"></h1>
+          <p class="home-role" id="home-role" data-i18n="intro.role"></p>
+          <div class="prose" id="intro-paragraphs"></div>
+          <div class="home-actions">
+            <div class="social" id="intro-social"></div>
+          </div>
+        </div>
+        <div class="home-photo">
+          <img id="profile-img" alt="Sunwoo Kim" />
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <h2 class="section-title" data-i18n="titles.education"></h2>
+      <div class="entry-list" id="education-list"></div>
+    </section>
+
+    <section id="experience" class="section">
+      <h2 class="section-title" data-i18n="titles.experience"></h2>
+      <div class="entry-list" id="experience-list"></div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2 class="section-title" data-i18n="titles.projects"></h2>
+      <div class="project-list" id="projects-list"></div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2 class="section-title" data-i18n="titles.skills"></h2>
+      <div class="skill-list" id="skills-list"></div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-bar">
+      <div class="footer-inner">
+        <p class="rights" data-i18n="footer.rights"></p>
+        <a href="#home" class="back-to-top" data-i18n="footer.backToTop"></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 내용은 data.js 한곳에, 동작은 main.js -->
+  <script src="js/data.js?v=10"></script>
+  <script src="js/main.js?v=10"></script>
+</body>
+</html>
