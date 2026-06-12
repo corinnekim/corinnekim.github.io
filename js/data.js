@@ -57,22 +57,22 @@ const I18N = {
       {
         title: "Instacart 고객 세그멘테이션",
         stack: "XGBoost | Customer Segmentation",
-        summary: `온라인 장보기 중 엉뚱한 상품이 추천되는 경험에서 출발해, "고객이 장바구니에 담는 순서"라는 행동 데이터에서 개인화의 단서를 찾고 장보기 성향에 따라 고객을 분류했습니다.`,
-        image: "assets/images/instacart.png",
+        summary: `온라인 장보기 중 엉뚱한 상품이 추천되는 경험에서 출발해, "장바구니에 담는 순서"라는 행동 데이터에서 개인화의 단서를 찾은 프로젝트입니다.`,
+        image: "assets/images/groceries.jpg",
         link: "https://sweltering-crane-02b.notion.site/Instacart-7d596d4e0a49827cb37d015c80fe11f8"
       },
       {
         title: "GDELT 위성 촬영 스케줄링 자동화",
         stack: "Kalman Filter | LLM | Anomaly Detection",
         summary: "뉴스 빅데이터에서 위성 촬영 골든타임 안에 어떤 도시를 언제, 어떤 위성으로 찍을지를 자동으로 산출해 의사결정을 5시간 → 15분으로 단축했습니다.",
-        image: "assets/images/gdelt_0.jpg",
+        image: "assets/images/earth.jpg",
         link: "https://sweltering-crane-02b.notion.site/GDELT-LLM-2ec96d4e0a4983eab5ee818b605b3400"
       },
       {
         title: "MovieLens 영화 추천 시스템",
         stack: "AutoInt+ | Recommendation | Bias Correction",
-        summary: `넷플릭스의 CEE(Continuous Explore Exploit) 프레임워크를 바탕으로, "사용자가 싫어할 만한 것은 추천하지 않는다"는 철학을 시스템 전반에 구현했습니다.`,
-        image: "assets/images/netflix.jpeg",
+        summary: "모델이 인기 영화에만 쏠리는 편향을 발견하고, '싫어할 만한 것은 추천하지 않는다'는 철학으로 추천 로직을 설계했습니다.",
+        image: "assets/images/netflix2.jpg",
         link: "https://github.com/corinnekim/Movie-Recommendation-System"
       }
     ],
