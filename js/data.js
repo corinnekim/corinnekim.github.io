@@ -57,14 +57,14 @@ const I18N = {
       {
         title: "Instacart 고객 세그멘테이션",
         stack: "XGBoost | Customer Segmentation",
-        summary: `온라인 장보기 중 엉뚱한 상품이 추천되는 경험에서 출발해, "고객이 장바구니에 담는 순서"라는 행동 데이터에서 개인화의 단서를 찾은 프로젝트입니다.`,
+        summary: `온라인 장보기 중 엉뚱한 상품이 추천되는 경험에서 출발해, "고객이 장바구니에 담는 순서"라는 행동 데이터에서 개인화의 단서를 찾고 장보기 성향에 따라 고객을 분류했습니다.`,
         image: "assets/images/instacart.png",
         link: "https://sweltering-crane-02b.notion.site/Instacart-7d596d4e0a49827cb37d015c80fe11f8"
       },
       {
         title: "GDELT 위성 촬영 스케줄링 자동화",
         stack: "Kalman Filter | LLM | Anomaly Detection",
-        summary: "전 세계 뉴스 빅데이터에서 위성 촬영 골든타임 안에 어떤 도시를 언제, 어떤 위성으로 찍을지를 자동으로 산출하는 시스템입니다.",
+        summary: "뉴스 빅데이터에서 위성 촬영 골든타임 안에 어떤 도시를 언제, 어떤 위성으로 찍을지를 자동으로 산출해 의사결정을 5시간 → 15분으로 단축했습니다.",
         image: "assets/images/gdelt_0.jpg",
         link: "https://sweltering-crane-02b.notion.site/GDELT-LLM-2ec96d4e0a4983eab5ee818b605b3400"
       },
