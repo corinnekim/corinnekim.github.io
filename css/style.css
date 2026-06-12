@@ -449,7 +449,10 @@ main { padding-top: var(--header-h); }
     grid-template-columns: 1fr;
     gap: 32px;
   }
-  .home-headline { font-size: 1.6rem; }
+  .home-headline { font-size: 1.44rem; }
+  .prose p { font-size: 0.97rem; }
+  .project-desc { font-size: 0.99rem; }
+  .entry-bullets li { font-size: 0.99rem; }
 
   .section-title { font-size: 2.5rem; }
   /* entry 모바일: 세로 스택, location | date 한 줄 */
@@ -471,5 +474,5 @@ main { padding-top: var(--header-h); }
 
   .skill-row { flex-direction: column; gap: 2px; }
   .skill-label { flex-basis: auto; }
-  .skill-items { flex-wrap: wrap; white-space: normal; gap: 6px 18px; }
+  .skill-items { flex-wrap: wrap; white-space: normal; gap: 6px 18px; font-size: 1.05rem; }
 }

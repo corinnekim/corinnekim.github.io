@@ -215,6 +215,7 @@ function renderProjects() {
     const img = document.createElement("img");
     img.src = p.image;
     img.alt = p.title;
+    img.loading = "lazy";
     imageLink.appendChild(img);
     card.appendChild(imageLink);
 
