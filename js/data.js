@@ -55,18 +55,25 @@ const I18N = {
     ],
     projects: [
       {
-        title: "Instacart 고객 세그멘테이션",
-        stack: "XGBoost | Customer Segmentation",
-        summary: `온라인 장보기 중 엉뚱한 상품이 추천되는 경험에서 출발해, "장바구니에 담는 순서"라는 행동 데이터에서 개인화의 단서를 찾은 프로젝트입니다.`,
-        image: "assets/images/groceries.jpg",
-        link: "https://sweltering-crane-02b.notion.site/Instacart-7d596d4e0a49827cb37d015c80fe11f8"
-      },
-      {
         title: "GDELT 위성 촬영 스케줄링 자동화",
         stack: "Kalman Filter | LLM | Anomaly Detection",
         summary: "뉴스 빅데이터에서 위성 촬영 골든타임 안에 어떤 도시를 언제, 어떤 위성으로 찍을지를 자동으로 산출해 의사결정을 5시간 → 15분으로 단축했습니다.",
         image: "assets/images/earth.jpg",
         link: "https://sweltering-crane-02b.notion.site/GDELT-LLM-2ec96d4e0a4983eab5ee818b605b3400"
+      },
+      {
+        title: "항공 수하물 반입 규정 챗봇 '기내뭐돼'",
+        stack: "RAG | OpenAI API",
+        summary: "한국에서 미국 여행 시 수하물 반입과 통관 규정을 답해주는 RAG 챗봇입니다.",
+        image: "assets/images/airplane.jpg",
+        link: "https://sweltering-crane-02b.notion.site/RAG-38396d4e0a49808a8946e0e98a39b75c?pvs=74"
+      },
+      {
+        title: "Instacart 고객 세그멘테이션",
+        stack: "XGBoost | Customer Segmentation",
+        summary: `온라인 장보기 중 엉뚱한 상품이 추천되는 경험에서 출발해, "장바구니에 담는 순서"라는 행동 데이터에서 개인화의 단서를 찾은 프로젝트입니다.`,
+        image: "assets/images/groceries.jpg",
+        link: "https://sweltering-crane-02b.notion.site/Instacart-7d596d4e0a49827cb37d015c80fe11f8"
       },
       {
         title: "MovieLens 영화 추천 시스템",
