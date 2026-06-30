@@ -48,8 +48,8 @@ const I18N = {
         period: "2024.07 - 2025.07",
         location: "California, United States",
         bullets: [
-          "SQL로 ERP 판매 데이터를 분석해 색상·품목별 수요 지표를 도출하고 리포트로 시각화. 감으로 하던 발주를 데이터 기반 의사결정으로 전환해 전년 대비 매출 약 5% 향상",
-          "모델컷 생성, 상세페이지 작성, 라인시트 제작을 AI로 자동화하여 시간 및 비용 20% 이상 절감"
+          "SQL로 ERP 판매 데이터를 분석해 색상·품목별 수요 지표를 도출하고 리포트로 시각화. 감으로 하던 발주 의사결정을 데이터 기반으로 전환",
+          "모델컷 생성, 상세페이지 작성, 라인시트 제작을 AI로 자동화하여 시간 및 비용 10% 이상 절감"
         ]
       }
     ],
@@ -64,7 +64,7 @@ const I18N = {
       {
         title: "항공 수하물 반입 규정 챗봇 '기내뭐돼'",
         stack: "RAG | OpenAI API",
-        summary: "한국에서 미국 여행 시 수하물 반입과 통관 규정을 답해주는 RAG 챗봇입니다.",
+        summary: "한국에서 미국 여행 시 수하물 반입과 통관 규정을 답해주는 RAG 챗봇입니다. 정답률을 85 → 94%로 개선했습니다.",
         image: "assets/images/airplane.jpg",
         link: "https://sweltering-crane-02b.notion.site/RAG-38396d4e0a49808a8946e0e98a39b75c?pvs=74"
       },
@@ -121,5 +121,5 @@ const ICONS = {
 // 이미지 / 파일 경로
 const ASSETS = {
   profile: "assets/images/brooklyn_bridge.jpg",
-  resume: "assets/sunwookim_resume.pdf?v=2"
+  resume: "assets/sunwookim-resume.pdf"
 };
